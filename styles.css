@@ -66,7 +66,7 @@ footer {
 
 .awesome .wrap {
   display: flex;
-  gap: 16px;
+  gap: 32px;
   align-items: center;
   padding: 64px 0;
 }
@@ -122,6 +122,11 @@ button {
 
 .quote {
   background-color: #E5E7EB;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 blockquote {
@@ -130,8 +135,7 @@ blockquote {
   font-weight: lighter;
   display: flex;
   flex-direction: column;
-  padding-top: 64px;
-  padding-bottom: 48px;
+  width: 800px;
 }
 
 cite {
