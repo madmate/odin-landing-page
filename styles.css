@@ -37,9 +37,7 @@ header .wrap {
 }
 
 header .logo {
-  font-size: 24px;
-  color: #F9FAF8;
-  font-weight: bold;
+  width: 48px;
 }
 
 .nav a {
@@ -90,17 +88,12 @@ button {
   font-weight: bold;
 }
 
-.image-placeholder {
+.awesome img {
   flex: 1;
   width: 350px;
-  height: 200px;
-  background-color: gray;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.image-placeholder-square {
+.item img {
   width: 150px;
   height: 150px;
   border: 3px solid #3882F6;
