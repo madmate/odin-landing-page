@@ -146,3 +146,29 @@ cite {
   font-size: 18px;
   font-weight: bold;
 }
+
+.call-to-action {
+  background-color: #3882F6;
+  border-radius: 8px;
+  padding: 24px 0;
+  display: flex;
+  align-items: center;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  width: 800px;
+  justify-content: space-evenly;
+}
+
+.call-to-action h2 {
+  color: #F9FAF8;
+  margin: 16px 0;
+}
+
+.call-to-action p {
+  color: #E5E7EB;
+  margin: 16px 0;
+}
+
+.call-to-action .sign-up {
+  border: 1px solid #F9FAF8;
+}
